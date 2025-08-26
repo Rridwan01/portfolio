@@ -6,13 +6,13 @@ const Projects = (): JSX.Element => {
   const projects = [
     {
       id: 1,
-      title: "E-commerce Platform",
+      title: "OmniFood Landing Page",
       description:
         "A full-stack e-commerce platform with user authentication, product management, and payment integration",
       image: "/react-project1.jpg",
-      tech: ["React", "Node.js", "MongoDB", "Stripe"],
-      demoLink: "https://demo1.example.com",
-      githubLink: "https://github.com/yourusername/project1",
+      tech: ["React", "TailwindCSS", "Vite"],
+      demoLink: "https://omnifood-bigridwan.netlify.app",
+      githubLink: "https://github.com/Rridwan01/Omnifood.git",
     },
     {
       id: 2,
@@ -47,12 +47,11 @@ const Projects = (): JSX.Element => {
   ];
 
   return (
-    <section
-      id="projects"
-      className="min-h-screen text-white/80 py-24 px-8"
-    >
+    <section id="projects" className="min-h-screen text-white/80 py-24 px-8">
       <div className="flex flex-col items-center text-center">
-        <h2 className="font-bold text-5xl">My Recent Works</h2>
+        <h2 className="font-bold text-5xl bg-gradient-to-r from-pink-500 to-purple-400 bg-clip-text text-transparent">
+          My Recent Works
+        </h2>
         <p className="max-w-2xl mt-5">
           Here are some of my recent projects showcasing my skills in web
           development and problem-solving.

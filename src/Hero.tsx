@@ -32,14 +32,14 @@ const Hero = (): JSX.Element => {
           </h1>
           <p className="mt-4 sm:mt-8 text-base sm:text-base lg:text-lg text-white/80">
             I'm{" "}
-            <span className="text hnjm,l-gradient-to-r from-pink-500 to-purple-400 font-bold text-lg sm:text-xl">
+            <span className="bg-gradient-to-r from-pink-500 to-purple-400 bg-clip-text text-transparent font-bold text-lg sm:text-xl">
               Ridwan
             </span>
             . I turn ideas into smooth, responsive web experiences using React &
             Tailwind CSS.
           </p>
           <div className="my-5 sm:mt-8 flex flex-wrap justify-center md:justify-start gap-4">
-            <div className="mt-8 flex gap-4">
+            <div className="mt-4 flex flex-col-reverse gap-8 md:flex-row md:gap-4">
               <a
                 href="#contact"
                 className="flex items-center gap-1 bg-transparent border border-white/80 text-white/80 px-4 py-2 rounded-xl font-semibold hover:bg-white/80 hover:text-black transition-all duration-300"

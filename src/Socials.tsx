@@ -45,7 +45,7 @@ const Socials = (): JSX.Element => {
     },
     {
       name: "X",
-      url: "https://www.x.com/",
+      url: "https://www.x.com/BandHashira",
       icon: (
         <svg
           xmlns="http://www.w3.org/2000/svg"

@@ -20,7 +20,7 @@ const Contact = (): JSX.Element => {
           </p>
 
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:olalekanr04@gmail.com"
             className="bg-transparent border border-white/80 text-white/80 px-4 py-2 rounded-xl font-semibold hover:bg-white/80 hover:text-black transition-all duration-300"
           >
             Say Hello →

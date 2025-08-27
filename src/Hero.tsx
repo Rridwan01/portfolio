@@ -39,10 +39,10 @@ const Hero = (): JSX.Element => {
             Tailwind CSS.
           </p>
           <div className="my-5 sm:mt-8 flex flex-wrap justify-center md:justify-start gap-4">
-            <div className="mt-4 flex flex-col-reverse gap-8 md:flex-row md:gap-4">
+            <div className="mt-4 flex flex-col-reverse gap-8 md:flex-row md:gap-4 md:items-center">
               <a
                 href="#contact"
-                className="flex items-center gap-1 bg-transparent border border-white/80 text-white/80 px-4 py-2 rounded-xl font-semibold hover:bg-white/80 hover:text-black transition-all duration-300"
+                className="max-w-36 flex items-center gap-1 bg-transparent border border-white/80 text-white/80 px-4 py-2 rounded-xl font-semibold hover:bg-white/80 hover:text-black transition-all duration-300"
               >
                 Contact Me →
               </a>
